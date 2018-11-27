@@ -1,18 +1,18 @@
 # code your #valid_move? method here
 def valid_move?(take_board, index)
  
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-   if ((index >= 0 && index <= 8) && (position_taken?(board, index) == false)) || ((index >= 0 && index <= 8) && (position_taken?(board, index) != false))
-     return true
-   elsif (index < 0 || index > 8)
-    return false
-   elsif (position_taken(board, index) == true)
-     return false
+#   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#   if ((index >= 0 && index <= 8) && (position_taken?(board, index) == false)) || ((index >= 0 && index <= 8) && (position_taken?(board, index) != false))
+#     return true
+#   elsif (index < 0 || index > 8)
+#     return false
+#   elsif (position_taken(board, index) == true)
+#     return false
     
-  else
-    return false
+#   else
+#     return false
  
- end
+# end
  
 end
 
